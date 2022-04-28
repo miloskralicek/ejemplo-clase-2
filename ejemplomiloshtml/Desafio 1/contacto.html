@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.html">      
+</head>
+<body>
+    <nav>       
+        <ul type="none">
+            <li>
+                <img src="M5-logo-azul.svg" alt="Logo azul" id="imagenlogo">
+                <a href="index.html" class="activo">HOME</a>
+                <a href="contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>¿Queres que nos contactemos con vos?</h1>
+        <p>Dejanos tu consulta: </p>
+    </header>
+
+    <main>
+        <label> Nombre completo <span>*</span>
+        <input name="Nombre completo" required type="text">
+        </label>
+        <label> Email <span>*</span>
+        <input name="Email" required type="email">
+        </label>
+        <label> Comentario <span>*</span>
+        <textarea required name="Comentario" cols="30" rows="10"></textarea>
+        </label>
+
+        <div class="boton encolumnar">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+    </main>
+</body>
+</html>
